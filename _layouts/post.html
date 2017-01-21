@@ -1,17 +1,86 @@
----
-layout: default
----
-<article class="post-container post-container--single">
-  <header class="post-header">
-    <div class="post-meta">
-      <time datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time> &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
-    </div>
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+<!DOCTYPE html>
+<html lang="en">
 
-  <section class="post">
-    {{ content }}
-  </section>
-  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
-</article>
-{% if page.comments != false %}{% include disqus.html %}{% endif %}
+{% include head.html %}
+
+<body>
+
+<!-- Loader -->
+<div id="page-loader">	</div>
+<!-- Loader / End -->
+
+{% include header.html %}
+
+<!-- Page Content -->
+<div id="page-content">
+
+	<!-- Page Title -->
+	<div class="page-title bottom-padded black">
+
+        <!-- Page Title Background -->
+    	<div class="page-title-bg editable-alpha" data-alpha="20"><img src="{{ page.image }}" alt="" /></div>
+
+        <div class="content padded dark">
+
+          <!-- Page Title Content -->
+          <div class="padded-vertical">
+          	<span class="post-date-alt">{{ page.date | date: "%B %e %Y"}}</span>
+            <h1 class="medium">{{ page.title }}</h1>
+            <div class="post-meta pull-left">
+                <span><i class="fa fa-tag"></i><a href="#">{{ page.categories }}</a></span>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+
+    <!-- Page Content -->
+    <div class="container content">
+
+      <div class="row">
+
+      	<div class="col-lg-12">
+        	 {{ content }}
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="bottom-bar">
+
+          <!-- Contact List -->
+          <ul class="list-inline">
+            <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>1111-A Nowhere Lane, Outta Sight, State 90378, USA</li>
+            <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="#">johnathandoe@suelo.pl</a></li>
+            <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>+0(31)6 89764536</li>
+          </ul>
+
+      </div>
+
+    </div>
+
+</div>
+<!-- Page Content / End -->
+
+
+{% include js.html %}
+
+<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
+<!--
+<script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+-->
+
+</body>
+
+</html>
