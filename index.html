@@ -1,12 +1,13 @@
 ---
 layout: default
+image: /assets/images/backgrounds/profile-bg-alt.jpg
 ---
 <!-- Page Content -->
 <div id="page-content">
   <!-- Profile -->
   <section id="profile" class="black">
 
-    <div id="profile-bg" class="editable-alpha" data-alpha="40"><img src="/assets/images/backgrounds/profile-bg-alt.jpg" alt="" /></div>
+    <div id="profile-bg" class="editable-alpha" data-alpha="40"><img src="{{ page.image }}" alt="" /></div>
 
     <div class="content padded dark">
 
@@ -17,9 +18,7 @@ layout: default
         <div class="pull-left">
           <span class="hiddend-sm hidden-xs">Check my social media! &nbsp; &nbsp; </span>
           <ul class="social-icons si-pull-up">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://twitter.com/{{ site.author.twitter_username }}"><i class="fa fa-twitter"></i></a></li>
           </ul>
         </div>
 
@@ -32,8 +31,8 @@ layout: default
 
       <!-- Profile Content -->
       <div class="profile-content">
-        <h1 class="short">Megan Girard</h1>
-        <h5 class="editable">I am <span class="text-primary">proffessional</span> project manager.</h5>
+        <h1 class="short">{{ site.author.name }}</h1>
+        <h5>Inspire. <span class="text-primary">Connect.</span> Teach.</h5>
         <a href="#blog" class="btn btn-primary" target="_blank">My Blog</a> <a href="#contact" class="btn btn-default">Contact me</a>
       </div>
 
@@ -42,9 +41,9 @@ layout: default
 
         <!-- Contact List -->
         <ul class="list-inline">
-          <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>1111-A Nowhere Lane, Outta Sight, State 90378, USA</li>
-          <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="#">marysmith@suelo.pl</a></li>
-          <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>+0(31)6 89764536</li>
+          <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>{{ site.author.address }}</li>
+          <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          <li><i class="inline-icon icon-before-and-after text-primary fa fa-twitter"></i>{{ site.author.twitter_username }}</li>
         </ul>
 
       </div>
@@ -66,11 +65,11 @@ layout: default
           <!-- Box - About Me -->
           <div class="resume-box animated slide-in-top">
             <i class="title-icon text-primary flaticon-speech43"></i>
-            <h3>Who am I?</h3>
-            <p class="lead">Sed porttitor nulla eget enim gravida blandit. Integer risus nunc, molestie a nibh in, interdum fringilla urna. </p>
+            <h3 class="editable">Who am I?</h3>
+            <p class="lead editable">Sed porttitor nulla eget enim gravida blandit. Integer risus nunc, molestie a nibh in, interdum fringilla urna. </p>
             <p>Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.</p>
             <p>Aenean ac tincidunt augue, volutpat ullamcorper elit.</p>
-            <a href="#portfolio" class="btn btn-black">See my portfolio</a> <a href="#portfolio" class="btn btn-default">Contact me</a>
+            <a href="#portfolio" class="btn btn-black">See my portfolio</a> <a href="#contact" class="btn btn-default">Contact me</a>
           </div>
 
           <!-- Box - Skills & Attributes -->
@@ -79,7 +78,7 @@ layout: default
             <h3>Skills &amp; Attributes</h3>
             <!-- Sinlge skill -->
             <div class="skill">
-              <span class="skill-name">Adobe Photoshop</span>
+              <span class="skill-name editable">Adobe Photoshop</span>
               <div class="skill-bar sb-primary">
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
@@ -89,7 +88,7 @@ layout: default
             </div>
             <!-- Sinlge skill -->
             <div class="skill">
-              <span class="skill-name">Adobe Dreamweaver</span>
+              <span class="skill-name editable">Adobe Dreamweaver</span>
               <div class="skill-bar sb-primary">
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
@@ -99,7 +98,7 @@ layout: default
             </div>
             <!-- Sinlge skill -->
             <div class="skill">
-              <span class="skill-name">HTML/CSS</span>
+              <span class="skill-name editable">HTML/CSS</span>
               <div class="skill-bar sb-primary">
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
@@ -109,7 +108,7 @@ layout: default
             </div>
             <!-- Sinlge skill -->
             <div class="skill">
-              <span class="skill-name">jQuery</span>
+              <span class="skill-name editable">jQuery</span>
               <div class="skill-bar sb-primary">
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
@@ -126,29 +125,29 @@ layout: default
           <!-- Box - Specialities -->
           <div class="resume-box animated slide-in-right">
             <i class="title-icon text-primary flaticon-mouse19"></i>
-            <h3>My Specialities</h3>
+            <h3 class="editable">My Specialities</h3>
             <!-- Speciality -->
             <div class="speciality">
               <i class="speciality-icon text-muted flaticon-bulb11"></i>
               <div class="speciality-content">
-                <h5 class="short">Web design</h5>
-                <p class="speciaity-description">Great, modern website designes.</p>
+                <h5 class="short editable">Web design</h5>
+                <p class="speciaity-description editable">Great, modern website designes.</p>
               </div>
             </div>
             <!-- Speciality -->
             <div class="speciality">
               <i class="speciality-icon text-muted flaticon-codings1"></i>
               <div class="speciality-content">
-                <h5 class="short">Front-End Web Development</h5>
-                <p class="speciaity-description">Great, modern website designes.</p>
+                <h5 class="short editable">Front-End Web Development</h5>
+                <p class="speciaity-description editable">Great, modern website designes.</p>
               </div>
             </div>
             <!-- Speciality -->
             <div class="speciality">
               <i class="speciality-icon text-muted flaticon-tablet42"></i>
               <div class="speciality-content">
-                <h5 class="short">App Design</h5>
-                <p class="speciaity-description">Great, modern website designes.</p>
+                <h5 class="short editable">App Design</h5>
+                <p class="speciaity-description editable">Great, modern website designes.</p>
               </div>
             </div>
           </div>
@@ -156,25 +155,25 @@ layout: default
           <!-- Box - Education & Jobs -->
           <div class="resume-box animated slide-in-left">
             <i class="title-icon text-primary flaticon-document56"></i>
-            <h3>Education & Jobs</h3>
+            <h3 class="editable">Education & Jobs</h3>
             <div class="timeline">
               <!-- Single event -->
               <div class="timeline-event te-primary">
-                <div class="event-date">Jan 2004 - Dec 2006</div>
-                <div class="event-name">Specialization course</div>
-                <div class="event-description">University of studies, Poland, Cracow</div>
+                <div class="event-date editable">Jan 2004 - Dec 2006</div>
+                <div class="event-name editable">Specialization course</div>
+                <div class="event-description editable">University of studies, Poland, Cracow</div>
               </div>
               <!-- Single event -->
               <div class="timeline-event te-primary">
-                <div class="event-date">Jan 2004 - Dec 2006</div>
-                <div class="event-name">Specialization course</div>
-                <div class="event-description">University of studies, Poland, Cracow</div>
+                <div class="event-date editable">Jan 2004 - Dec 2006</div>
+                <div class="event-name editable">Specialization course</div>
+                <div class="event-description editable">University of studies, Poland, Cracow</div>
               </div>
               <!-- Single event -->
               <div class="timeline-event te-primary">
-                <div class="event-date">Jan 2004 - Dec 2006</div>
-                <div class="event-name">Specialization course</div>
-                <div class="event-description">University of studies, Poland, Cracow</div>
+                <div class="event-date editable">Jan 2004 - Dec 2006</div>
+                <div class="event-name editable">Specialization course</div>
+                <div class="event-description editable">University of studies, Poland, Cracow</div>
               </div>
             </div>
           </div>
@@ -186,10 +185,10 @@ layout: default
           <!-- Box - Languages -->
           <div class="resume-box animated slide-in-right appear-second">
             <i class="title-icon text-primary flaticon-chat25"></i>
-            <h3>Languages</h3>
+            <h3 class="editable">Languages</h3>
             <!-- Single skill -->
             <div class="skill">
-              <span class="skill-name">English</span>
+              <span class="skill-name editable">English</span>
               <div class="skill-bar sb-primary">
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
@@ -199,7 +198,7 @@ layout: default
             </div>
             <!-- Single skill -->
             <div class="skill">
-              <span class="skill-name">German</span>
+              <span class="skill-name editable">German</span>
               <div class="skill-bar sb-primary">
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
@@ -212,13 +211,13 @@ layout: default
           <!-- Box - Hobbies -->
           <div class="resume-box animated slide-in-bottom">
             <i class="title-icon text-primary flaticon-joystick4"></i>
-            <h3>Hobbies &amp; Interests</h3>
+            <h3 class="editable">Hobbies &amp; Interests</h3>
             <!-- List group -->
             <ul class="list-group">
-              <li class="list-group-item">Beer</li>
-              <li class="list-group-item">Sport</li>
-              <li class="list-group-item">Music</li>
-              <li class="list-group-item">Videogames</li>
+              <li class="list-group-item editable">Beer</li>
+              <li class="list-group-item editable">Sport</li>
+              <li class="list-group-item editable">Music</li>
+              <li class="list-group-item editable">Videogames</li>
             </ul>
           </div>
 
@@ -236,114 +235,52 @@ layout: default
 
     <!-- Projects Holder -->
     <div class="projects-holder black dark clearfix">
-      <!-- Single Project -->
-      <div class="single-project animated fade-in">
-        <div class="project-image">
-          <img src="/assets/images/portfolio/project_01.jpg" alt="" />
-        </div>
-        <div class="project-mask">
-          <div class="project-info">
-            <div class="project-title">Swimming Pool</div>
-            <div class="project-caption text-primary">Webdesgin</div>
-            <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-primary btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Project -->
-      <div class="single-project animated fade-in appear-third">
-        <div class="project-image">
-          <img src="/assets/images/portfolio/project_02.jpg" alt="" />
-        </div>
-        <div class="project-mask">
-          <div class="project-info">
-            <div class="project-title">Shopping Mall</div>
-            <div class="project-caption text-primary">Webdesgin / Webdevelopment</div>
-            <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-primary btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Project -->
-      <div class="single-project animated fade-in appear-second">
-        <div class="project-image">
-          <img src="/assets/images/portfolio/project_03.jpg" alt="" />
-        </div>
-        <div class="project-mask">
-          <div class="project-info">
-            <div class="project-title">Animal Charity</div>
-            <div class="project-caption text-primary">Corporate Identity</div>
-            <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-primary btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Project -->
-      <div class="single-project animated fade-in appear-fourth">
-        <div class="project-image">
-          <img src="/assets/images/portfolio/project_04.jpg" alt="" />
-        </div>
-        <div class="project-mask">
-          <div class="project-info">
-            <div class="project-title">Be Pregnant</div>
-            <div class="project-caption text-primary">Webdesgin / Corporate Identity</div>
-            <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-primary btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Project -->
-      <div class="single-project animated fade-in">
-        <div class="project-image">
-          <img src="/assets/images/portfolio/project_05.jpg" alt="" />
-        </div>
-        <div class="project-mask">
-          <div class="project-info">
-            <div class="project-title">Booking Store</div>
-            <div class="project-caption text-primary">Webdesgin / Webdevelopment</div>
-            <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-primary btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Project -->
-      <div class="single-project animated fade-in appear-second">
-        <div class="project-image">
-          <img src="/assets/images/portfolio/project_06.jpg" alt="" />
-        </div>
-        <div class="project-mask">
-          <div class="project-info">
-            <div class="project-title">Social Media App</div>
-            <div class="project-caption text-primary">App Design</div>
-            <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-primary btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Project -->
-      <div class="single-project animated fade-in appear-fourth">
-        <div class="project-image">
-          <img src="/assets/images/portfolio/project_07.jpg" alt="" />
-        </div>
-        <div class="project-mask">
-          <div class="project-info">
-            <div class="project-title">Medical Business</div>
-            <div class="project-caption text-primary">Webdesgin / Corporate Identity</div>
-            <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-primary btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
-          </div>
-        </div>
-      </div>
-      <!-- Single Project -->
-      <div class="single-project animated fade-in appear-third">
-        <div class="project-image">
-          <img src="/assets/images/portfolio/project_08.jpg" alt="" />
-        </div>
-        <div class="project-mask">
-          <div class="project-info">
-            <div class="project-title">Pice of cake!</div>
-            <div class="project-caption text-primary">Webdesgin / Webdevelopment</div>
-            <div class="project-buttons"><a href="projects/ajax-project-details.html" class="ajax-portfolio-link btn btn-primary btn-sm">View it</a> <a href="#" target="_blank" class="btn btn-default btn-sm">Online version</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Ajax Project Details -->
-    <div class="project-content"></div>
+      {% for project in site.projects %}
+        <!-- Single Project -->
+        <div class="single-project animated fade-in">
+          <div class="project-image">
+            <img src="{{ project.mainimage }}" alt="" />
+          </div>
+          <div class="project-mask">
+            <div class="project-info">
+              <div class="project-title">{{ project.title }}</div>
+              <div class="project-caption text-primary">{{ project.caption }}</div>
+              <div class="project-buttons" data-projectid="{{project.identity}}"><a class="btn btn-primary btn-sm">View Details</a></div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+    {% for project in site.projects %}
+      <!-- Project Details -->
+      <div id="{{ project.identity }}" class="content padded project-details">
+          <div class="row">
+            <!-- Top Bar -->
+            <div class="top-bar">
+              <span class="pull-left project-close"><a href="#" class="btn btn-default btn-sm btn-pull-up"><i class="fa fa-times icon-before"></i>Close</a></span>
+                <h6 class="pull-right text-muted short">Project Details</h6>
+            </div>
+          	<div class="col-lg-6">
+        			    <div class="long">
+                      <h2 class="short">{{ project.title }}</h2>
+                      <span class="text-muted">{{ project.caption }}</span>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-12">
+                      	<h5>Project Details</h5>
+                        {{ project.content }}
+                      </div>
+                  </div>
+
+              </div>
+              <div class="col-lg-6">
+                <img style="display:block; margin: 0 auto;" src="{{ project.image }}" alt="project.title"/>
+              </div>
+          </div>
+      </div>
+    {% endfor %}
 
   </section>
   <!-- Portfjolo / End -->
@@ -387,7 +324,7 @@ layout: default
 
             <!-- Left Caption -->
             <div class="pull-left">
-              <span class="hiddend-sm hidden-xs">Would you like to check all of my posts? &nbsp; &nbsp;</span><a href="blog-page-alt.html" class="btn btn-black btn-sm">Check my Blog Page!</a>
+              <span class="hiddend-sm hidden-xs editable">Would you like to check all of my posts? &nbsp; &nbsp;</span><a href="blog-page-alt.html" class="btn btn-black btn-sm editable">Check my Blog Page!</a>
             </div>
 
             <!-- Post Carousel Navigation -->
@@ -416,12 +353,11 @@ layout: default
     <!-- Contact Content -->
     <div class="content contact-content padded dark animated slide-in-left">
       <i class="title-icon text-primary flaticon-speech43"></i>
-      <h2>Do you want to hire me?</h2>
+      <h2 class="editable">Do you want to hire me?</h2>
       <!-- Contact List -->
       <ul class="list-unstyled list-unstyled-icons">
-        <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>1111-A Nowhere Lane,<br />Outta Sight,<br />State 90378, USA</li>
-        <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="#">johnathandoe@suelo.pl</a></li>
-        <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>+0(31)6 89764536</li>
+        <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>{{ site.author.address }}</li>
+        <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="mailto:{{ site.author.email }}"> {{ site.author.email }} </a></li>
       </ul>
       <br/><br/>
       <p><a href="#" class="btn btn-primary">Download my CV</a></p>
@@ -432,15 +368,8 @@ layout: default
             <h5>Check my social media!</h5>
             <!-- Social Icons -->
             <ul class="social-icons medium">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="https://twittter.com/{{ site.author.twitter_username }}"><i class="fa fa-twitter"></i></a></li>
             </ul>
-          </div>
-          <div class="col-md-12 col-lg-6">
-            <h5>Like Me on Facebook!</h5>
-            <!-- Like Button -->
-            <div class="fb-like" data-href="https://www.facebook.com/suelopl" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
           </div>
         </div>
       </div>
@@ -449,7 +378,7 @@ layout: default
     <!-- Contact Form -->
     <div id="contact-form-holder" class="dark">
       <div class="contact-form-trigger animated slide-in-right appear-second"><i class="flaticon-mail21"></i></div>
-      <form role="form" id="contact-form" method="post">
+      <form id="contact-form-new" method="post" action="https://www.megangirard.com">
         <div class="form-group">
           <label>Name:</label>
           <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>

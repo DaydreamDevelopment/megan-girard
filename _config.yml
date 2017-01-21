@@ -2,14 +2,17 @@
 title: Megan Girard | Inspire. Connect. Teach.
 description: 'Inspire. Connect. Teach.'
 url: 'https://www.megangirard.com/'
-baseurl: '/'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
 
 author:
   name: 'Megan Girard'
   email: megan.lafave@hotmail.com
   twitter_username: MrsMGirard
+  address: 'Long Sault, ON'
+
+collections:
+  projects:
 
 defaults:
   -

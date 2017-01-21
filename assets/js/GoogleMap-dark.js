@@ -102,8 +102,8 @@ $(document).ready(function() {
       }
     ]
 
-    var yourLatitude = 40.758895;
-    var yourLongitude = -73.985131;
+    var yourLatitude = 45.030398;
+    var yourLongitude = -74.8927477;
 
     var myOptions = {
       zoom: 14,
