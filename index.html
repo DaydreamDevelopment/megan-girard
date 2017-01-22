@@ -83,7 +83,7 @@ image: /uploads/background.jpg
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
-                <div class="skill-rate-on"></div>
+                <div class="skill-rate-off"></div>
               </div>
             </div>
             <!-- Sinlge skill -->
@@ -92,8 +92,8 @@ image: /uploads/background.jpg
               <div class="skill-bar sb-primary">
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
-                <div class="skill-rate-off"></div>
-                <div class="skill-rate-off"></div>
+                <div class="skill-rate-on"></div>
+                <div class="skill-rate-on"></div>
               </div>
             </div>
             <!-- Sinlge skill -->
@@ -103,7 +103,7 @@ image: /uploads/background.jpg
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
-                <div class="skill-rate-on"></div>
+                <div class="skill-rate-off"></div>
               </div>
             </div>
             <!-- Sinlge skill -->
@@ -113,7 +113,7 @@ image: /uploads/background.jpg
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
                 <div class="skill-rate-on"></div>
-                <div class="skill-rate-off"></div>
+                <div class="skill-rate-on"></div>
               </div>
             </div>
           </div>
@@ -124,11 +124,11 @@ image: /uploads/background.jpg
 
           <!-- Box - Specialities -->
           <div class="resume-box animated slide-in-right">
-            <i class="title-icon text-primary flaticon-mouse19"></i>
+            <i class="title-icon text-primary flaticon-book82"></i>
             <h3 class="editable">Experience&nbsp;</h3>
             <!-- Speciality -->
             <div class="speciality">
-              <i class="speciality-icon text-muted flaticon-bulb11"></i>
+              <i class="speciality-icon text-muted flaticon-home60"></i>
               <div class="speciality-content">
                 <h5 class="short editable">Our Lady of Good Counsel (CDSBEO)&nbsp;</h5>
                 <p class="speciaity-description editable">Planned, implemented and assessed various lessons for Math, Language and Religion (grade 5, 6/7)<br />Assisted in parent-teacher conferences<br />Differentiated instruction according to student ability and skill level<br />Integrated technology into lessons on a regular basis<br />Attended various PD workshops<br />Collaborated at all monthly staff meetings</p>
@@ -136,7 +136,7 @@ image: /uploads/background.jpg
             </div>
             <!-- Speciality -->
             <div class="speciality">
-              <i class="speciality-icon text-muted flaticon-codings1"></i>
+              <i class="speciality-icon text-muted flaticon-home60"></i>
               <div class="speciality-content">
                 <h5 class="short editable">Williamstown Public School (UCDSB)</h5>
                 <p class="speciaity-description editable">Planned, implemented and assessed a variety of lessons for Math, Science, Physical Education and Language (grade 2/3)<br />Differentiated instruction according to student ability and skill level<br />Implemented various assessment methods for students with IEP&rsquo;s<br />Employed a broad range of instructional techniques to retain student interest and maximize learning</p>
@@ -144,7 +144,7 @@ image: /uploads/background.jpg
             </div>
             <!-- Speciality -->
             <div class="speciality">
-              <i class="speciality-icon text-muted flaticon-tablet42"></i>
+              <i class="speciality-icon text-muted flaticon-home60"></i>
               <div class="speciality-content">
                 <h5 class="short editable">Ottawa Children's Treatment Centre&nbsp;</h5>
                 <p class="speciaity-description editable">Shadowed a Speech-Language Pathologist Assisted in providing therapy to children with a variety of special needs (0-6 years old)<br />Used various tools including Picture Exchange, Sign Language and Talking Devices to communicate with children Anecdotal notation to summarize each therapy session&nbsp;</p>
@@ -201,7 +201,7 @@ image: /uploads/background.jpg
               <span class="skill-name editable">French&nbsp;</span>
               <div class="skill-bar sb-primary">
                 <div class="skill-rate-on"></div>
-                <div class="skill-rate-on"></div>
+                <div class="skill-rate-off"></div>
                 <div class="skill-rate-off"></div>
                 <div class="skill-rate-off"></div>
               </div>
@@ -253,9 +253,10 @@ image: /uploads/background.jpg
       {% endfor %}
 
     </div>
+    <div class="content padded project-details">
     {% for project in site.projects %}
       <!-- Project Details -->
-      <div id="{{ project.identity }}" class="content padded project-details">
+      <div id="{{ project.identity }}" class="project-details-view">
           <div class="row">
             <!-- Top Bar -->
             <div class="top-bar">
@@ -281,6 +282,7 @@ image: /uploads/background.jpg
           </div>
       </div>
     {% endfor %}
+  </div>
 
   </section>
   <!-- Portfjolo / End -->
@@ -322,11 +324,6 @@ image: /uploads/background.jpg
           <!-- End Of Section -->
           <div class="end-of-section">
 
-            <!-- Left Caption -->
-            <div class="pull-left">
-              <span class="hiddend-sm hidden-xs editable">Would you like to check all of my posts? &nbsp; &nbsp;</span><a href="blog-page-alt.html" class="btn btn-black btn-sm editable">Check my Blog Page!</a>
-            </div>
-
             <!-- Post Carousel Navigation -->
             <div class="post-carousel-control">
               <a class="post-carousel-prev" href="#">Previous</a>
@@ -360,7 +357,7 @@ image: /uploads/background.jpg
         <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="mailto:{{ site.author.email }}"> {{ site.author.email }} </a></li>
       </ul>
       <br /><br />
-      <p><a href="#" class="btn btn-primary">Download my CV</a></p>
+      <p><a class="contact-form-trigger-button btn btn-primary">Contact Me</a></p>
       <!-- Bottom Bar -->
       <div class="bottom-bar contact-bottom-bar">
         <div class="row">

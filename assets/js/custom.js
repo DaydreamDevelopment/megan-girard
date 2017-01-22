@@ -5,11 +5,11 @@ $(document).ready(function() {
   /* Setting Sizes
   -----------------------------------------------------*/
 
-  $(".project-details").hide();
+  $(".project-details-view").hide();
 
   // Show project details
   $(".project-buttons").click(function() {
-    $(".project-details").hide();
+    $(".project-details-view").hide();
     console.log($(this).data("projectid"));
     $("#" + $(this).data("projectid")).show();
     $('html, body').animate({
@@ -19,7 +19,7 @@ $(document).ready(function() {
 
   // Hide project details
   $(".project-close").click(function() {
-    $(".project-details").hide();
+    $(".project-details-view").hide();
     $('html, body').animate({
       scrollTop: $('.projects-holder').position().top
     }, 700);
@@ -217,6 +217,17 @@ $(document).ready(function() {
 
   $('#contact-form-holder').addClass('form-hidden');
   $('.contact-form-trigger').click(function() {
+    if ($('#contact-form-holder').hasClass('form-hidden')) {
+      $('#contact-form-holder').removeClass('form-hidden').addClass('form-visible');
+      $('.contact-form-trigger').addClass('active');
+    } else
+    if ($('#contact-form-holder').hasClass('form-visible')) {
+      $('#contact-form-holder').removeClass('form-visible').addClass('form-hidden');
+      $('.contact-form-trigger').removeClass('active');
+    };
+  });
+
+  $('.contact-form-trigger-button').click(function() {
     if ($('#contact-form-holder').hasClass('form-hidden')) {
       $('#contact-form-holder').removeClass('form-hidden').addClass('form-visible');
       $('.contact-form-trigger').addClass('active');
