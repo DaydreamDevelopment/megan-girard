@@ -9,7 +9,7 @@ thumbnail: /uploads/digital-small.jpg
 ---
 
 
-Using technology in the classroom is beginning to be seen as a norm. I as a teacher, see the great benefit that technology can provide towards enhancing  student learning however…
+Using technology in the classroom is beginning to be seen as a norm. I as a teacher, see the great benefit that technology can provide towards enhancing &nbsp;student learning however…
 
 Is there an amount of technology that is considered "too much" for our students? Is technology a distraction? Is technology enhancing all aspects of how curriculum is delivered? Can we continue to shift towards this paper-less educational route and just rely on technology while ensuring our students are receiving the best education possible?
 
@@ -29,7 +29,7 @@ Through the discussions in class today, it became evident that there is a good m
 
 **Source selection:**How do we pick a source?
 
-**Type:** What type of source do we use?
+**Type:**&nbsp;What type of source do we use?
 
 **Trustworthiness:** is everything we look at online accurate? Is the site reputable?
 
@@ -50,3 +50,7 @@ Students may have a question they want to further inquire and due to the forward
 As a final note: technology has provided various advancements in assisting students who struggle producing evidence of their knowledge and understanding of various topics within the curriculum. There are now ways that lessons can be adapted to ensure all students are receiving education in the ways that best meet their needs. There are programs that have been developed to assist students with reading, writing, expressing their opinions and connecting the curriculum in ways that allow them to understand. This is a huge advancement in creating inclusive classrooms that meet the needs of all learners.
 
 Remember, as technology continues to advance, it is important we- as teachers, keep our technology skills up to date. Therefore, we might need to continuously educate ourselves on the new and improved technology. This provides a great teachable moment for our students- as teachers, we are endless learners. As students, we are endless learners. As humans, we are endless learners.
+
+Until next time,&nbsp;
+
+Megan
