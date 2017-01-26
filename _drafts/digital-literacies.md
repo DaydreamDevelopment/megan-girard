@@ -15,7 +15,7 @@ There are no concrete answers for any of the above-mentioned questions. Some day
 
 Something that has sparked interest surrounding digital literacy is "how can we introduce digital technology to our students so that it provides them with appropriate tools to ENHANCE their learning rather than distract them?" How do we, as educators, ensure that our students are using their technology-time appropriately?&nbsp;
 
-Through the discussions in class today, it became evident that there is a method in which digital literacy can be introduced. The best way to describe these methods includes the formula (PST2) + (IC3)&nbsp;
+Through the discussions in class today, it became evident that there is a good method in which digital literacy can be introduced. The best way to describe this inquiry based tool includes the formula (PST2) + (IC3)&nbsp;
 
 (PST2)(ic3)
 
@@ -39,4 +39,8 @@ Through the discussions in class today, it became evident that there is a method
 
 **Continually Update Understanding:** continually update your knowledge and understanding of the given inquiry.
 
-Allowing students to have time to connect their understanding to the formula promotes&nbsp;
+Allowing students the time to connect their understanding to the formula and processes of research, prompts more strategic research.
+
+Digital literacy really surrounds this idea of student based inquiry but how do we promote inquiry without having limitations?&nbsp;
+
+Students may have a question they want to research and because this forward movement with technology, the resources are easily accessible. Allowing students to take their inquiry into the digital world also takes away the need to scaffold student learning.
