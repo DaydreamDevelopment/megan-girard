@@ -2,10 +2,9 @@
 title: Classroom Magement
 date: 2016-10-05 15:04:00
 categories:
-  - Ottawa
-  - U
-image: /assets/images/blog/stairs.jpg
-thumbnail: /assets/images/blog/stairs-small.jpg
+  - teaching
+image: /uploads/desk.jpg
+thumbnail: /uploads/desk-small.jpg
 ---
 
 
@@ -29,11 +28,27 @@ Students in the junior grades have had years of practice in terms of respecting 
 
 Volume Control: Believe it or not, the grade 5 and the grade 6/7 class responded really well to one of the attention grabbing phrases. In my grade 5 class I would say "ST" and the students would respond with "OP," whereas in my grade 6/7 class I would say "ready set" and the students would respond with "you bet." It is really neat to know that by grade 5/6/7 the students are accustomed to responding to these attention grabbing phrases and regardless of what is said, a response from the students is usually heard therefore informing the rest of the class to quiet down. The one problem I had with the older grades was the redundancy with the phrases. By this age, I believe that the students should be able to respond to a variety of different attention grabbing phrases. That said, when I have my own classroom one day, I will be sure to give a variety of different phrases to allow for some change in the room.
 
-&nbsp;
+Classroom Setup: How you set up a classroom is conducive to how your students will perform. Allowing for change is sometimes the best option for the older grades. Some students work well with partners and others work well on their own therefore, it is important to get to know your students before deciding on a final arrangement.&nbsp;
+
+Grouping: Randomized grouping is something I introduced to my associate teacher. As a student myself, I know that when we are asked to partner up, I tend to gravitate towards my friends. This is no different from the students in my class. There are a couple of neat tricks that I have picked up in order to ensure that students are constantly being shuffled around with different partners. This allows for new learning opportunities- sometimes, you may learn more from a new partner than you would have had you chosen your best friend.&nbsp;
+
+Pairs: Need your students to get into pairs? Sick of them picking the same partner over and over. Problem solved. Print off a variety of different matching items e.g., peanut butter + jelly or socks+ shoes or Cinderella + glass slipper. Have items separated onto different cards e.g., the peanut butter on one card and the jelly on another. Shuffle the cards and randomly distribute to the class. Make sure students keep their card face down until all students have a card. Count down, and allow your students to flip their cards. They are then required to go and find their match (who then becomes their partner). This resolves any issues with picking partners in a fun and exciting manner.
+
+Groups of Three: Ask your class to get into groups of 3, have them number themselves from 1-3. Students will likely pair up with their friends but this method will ensure that everyone in the room is switched around. Have all of the number ones move clockwise in the room (making them part of a new group) and the number threes move counterclockwise in the room. This allows for totally new grouping.
+
+Groups of Four +: Need your students to get into groups of 4? Best way is to have all of the students' names on popsicle sticks and randomly choose the groups this way.&nbsp;
+
+All of the above mentioned grouping strategies ensures that all of your students are included and nobody feels left out. It is also a way of introducing collaboration to your students with unfamiliar group members.
+
+I could write ALL day on different classroom management techniques that I have come across through my practicum experience. As I become more experienced, I am sure I will add many more tools to my kit. Remember, it is important to establish a positive relationship with your students so they feel safe and are able to get the best learning experience possible.
 
 &nbsp;
 
-Grouping: Randomized grouping is something that I have seen&nbsp;
+Until next time,&nbsp;
+
+Megan
+
+&nbsp;
 
 &nbsp;
 
