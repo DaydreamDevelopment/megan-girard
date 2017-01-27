@@ -1,6 +1,6 @@
 ---
 identity: clubs
-title: Clubs
+title: Involvement
 caption: Extracurricular activities are something that every student needs to continue to thrive in their academics.
 thumbnail: /uploads/boardgames-small.jpg
 image: /uploads/boardgames.jpg
