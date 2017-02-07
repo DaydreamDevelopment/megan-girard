@@ -1,5 +1,5 @@
 ---
-title: Classroom Magement
+title: Classroom Management
 date: 2017-01-26 15:04:00
 categories:
   - teaching
