@@ -17,3 +17,7 @@ Science allows students to show their intelligence in a variety of different way
 ![Teaching your students about simple machines? This cross-curricular activity is sure to capture student attention. All that is required for this activity are some items that can be found around the school. Allow students to inquire. Don't give them answers. Can you spot the simple machines in this playground?](/uploads/versions/img-8838---x----3264-2448x---.JPG)
 
 ![Balloon cars are an awesome way to include student creativity with science. Again, basic materials that can take on a whole new exploration of learning. How does the car move? What would happen if we put another source as the mechanism to make the car move?](/uploads/versions/img-8826---x----3264-2448x---.JPG)
+
+&nbsp;
+
+Have fun with science, let your teaching passion shine through. Show your love of learning to your students. Learning is endless.&nbsp;
