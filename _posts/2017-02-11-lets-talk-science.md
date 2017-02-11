@@ -1,6 +1,6 @@
 ---
 title: Lets Talk Science
-date: 2017-02-11 12:18:00
+date: 2017-02-11 07:15:00
 categories:
   - teaching
 image: /uploads/9dtg44qhx1q-neven-krcmarek.jpg
