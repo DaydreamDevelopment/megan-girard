@@ -29,3 +29,11 @@ There are so many new technologies that we can introduce to our students in orde
 Remember, it is important to launch into this computational thinking with an open mind. Equally important; have a conversation with your students. Talk about the pros/cons of technology. The troubles they might run into, the importance of patience and better yet, the world of possibilities that awaits them.&nbsp;
 
 Here are a list of great resources I have compiled. Remember, some of them are quite costly but be sure to check them out!&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+www.scratch.mit.edu
+
+www.code.org
