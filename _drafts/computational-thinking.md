@@ -30,10 +30,6 @@ Remember, it is important to launch into this computational thinking with an ope
 
 Here are a list of great resources I have compiled. Remember, some of them are quite costly but be sure to check them out!&nbsp;
 
-&nbsp;
+www.scratch.mit.edu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ozobots&nbsp;
 
 &nbsp;
-
-www.scratch.mit.edu
-
-www.code.org
