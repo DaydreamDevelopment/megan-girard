@@ -3,8 +3,8 @@ title: Lets Talk Science
 date: 2017-02-11 07:15:00
 categories:
   - teaching
-image: /uploads/9dtg44qhx1q-neven-krcmarek.jpg
-thumbnail: /uploads/9dtg44qhx1q-neven-krcmarek.jpg
+image: /uploads/moon.jpg
+thumbnail: /uploads/moon-small.jpg
 ---
 
 
@@ -20,10 +20,8 @@ Science allows students to show their intelligence in a variety of different way
 
 Balloon cars are an awesome way to include student creativity with science. Again, basic materials that can take on a whole new exploration of learning. How does the car move? What would happen if we put another source as the mechanism to make the car move?
 
-Have fun with science, let your teaching passion shine through. The above activities are just SOME of the ways that you can really engage students in their learning. Remember to show your students your love of learning. &nbsp;They need to see that learning never stops. Learning is endless. Learning is fun.
+Have fun with science, let your teaching passion shine through. The above activities are just SOME of the ways that you can really engage students in their learning. Remember to show your students your love of learning.  They need to see that learning never stops. Learning is endless. Learning is fun.
 
-&nbsp;
-
-Until next time,&nbsp;
+Until next time,
 
 Megan
