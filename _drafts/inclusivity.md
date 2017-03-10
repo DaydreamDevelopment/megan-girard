@@ -12,13 +12,13 @@ As I am sure you are all aware, I am currently finishing up my B.Ed at the Unive
 
 When I think of a classroom environment I often think of the following terms
 
-# Interactive &nbsp; &nbsp;Inclusive &nbsp; &nbsp; &nbsp;Inviting
+# Interactive &nbsp; &nbsp;Inclusive &nbsp; &nbsp; &nbsp; &nbsp; Inviting
 
-## Engaging &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Educational &nbsp; &nbsp; &nbsp; &nbsp;Essential
+## Engaging &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Educational &nbsp; &nbsp; &nbsp; &nbsp;Essential
 
-### &nbsp;Safe &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Supportive &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Special
+### Safe &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Supportive &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Special
 
-#### Unique &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Understanding &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Uncovering
+#### Unique &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Understanding &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Uncovering
 
 We may all have various perspectives in terms of what a classroom should look like or how we should feel in a classroom however; to me, the most important is being inclusive. Below you will find a metaphor that myself and a group of colleagues came up with that best explains Inclusiveness.
 
