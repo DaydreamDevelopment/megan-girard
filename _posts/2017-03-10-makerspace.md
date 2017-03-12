@@ -37,4 +37,4 @@ Below you will find a rubric and a screencast of an overview on how the Inkscape
 
 ![](/uploads/versions/screen-shot-2017-03-06-at-11-27-37-am---x----695-638x---.png)
 
-<object width="550" height="400" data="/assets/videos/screencast_megan.swf">Alertnative Content Here</object>
+<object width="550" height="400" data="/assets/videos/screencast_megan.swf">Video Requires Flash Player</object>
