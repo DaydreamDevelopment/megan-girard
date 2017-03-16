@@ -1,6 +1,6 @@
 ---
 title: Virtual Reality and Augmented Reality
-date: 2017-03-16 12:04:00
+date: 2017-03-16 17:04:00
 categories:
   - teaching
 image: /uploads/virtualreality.jpg
