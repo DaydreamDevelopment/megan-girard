@@ -14,7 +14,7 @@ Virtual Reality and Augmented Reality can be used to support and enhance student
 
 This resource would be great for completing a science unit on animals. This tool can provide students with the opportunity to feel as though they are in the space with various animals. It can allow students to explore and research through inferring what is going on during their exploration. Rather than going to a zoo (which might not be affordable / attainable) in some schools, teachers can provide their students with the opportunity to see the animals in a new way.
 
-Using NYTVR students can enter the World Trade Centre (WTC) and experience climbing up to the top. Throughout this tour, they can estimate the height of the WTC or the length of time it took to build the WTC.  After estimating, students can research these types of estimations and give a write up in terms of how close their estimation was or identify something new. Students can also focus on looking at details throughout their tour and use those details to make a detailed drawing of what they had experienced.
+Using NYTVR students can enter the World Trade Centre (WTC) and experience climbing up to the top. Throughout this tour, they can estimate the height of the WTC or the length of time it took to build the WTC. &nbsp;After estimating, students can research these types of estimations and give a write up in terms of how close their estimation was or identify something new. Students can also focus on looking at details throughout their tour and use those details to make a detailed drawing of what they had experienced.
 
 It is important to take into consideration some of the constraints that come along with this technology including:
 
@@ -26,3 +26,7 @@ It is important to take into consideration some of the constraints that come alo
 It is important to remember that this is not the sole tool to teaching a lesson however it will really assist in connecting a lesson and real hands on experiences together.
 
 Personally, I feel that this might be quite overwhelming in a classroom. If I was to implement this in my classroom I would make sure to have a whole group discussion on the topic of virtual reality / augmented reality and what it entails. I would then use this technology as one of the centres in my rotational centres. Students will be made aware that everyone will get the opportunity to experience the virtual reality. This technology can provide a virtual space that evens the playing field (e.g., having all students access the same method of learning).
+
+Until next time,&nbsp;
+
+Megan
