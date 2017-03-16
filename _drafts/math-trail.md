@@ -1,6 +1,6 @@
 ---
 title: Math Trail
-date: 2017-03-10 12:04:00
+date: 2017-03-16 12:04:00
 categories:
   - teaching
 image: /uploads/inclusion.jpg
